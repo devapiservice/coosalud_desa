@@ -29,6 +29,9 @@ zuul:
       path: /MedicionSaludFamiliar/v1/**
       serviceId: MS-COOSALUD-SALUDFAMILIAR
       stripPrefix: false
+    ms-coosalud-consmed:
+      path: /ConsultaMedica/v1/**
+      serviceId: MS-COOSALUD-CONSMED
     ratelimit:
       enabled: false
       repository: IN_MEMORY
