@@ -32,6 +32,7 @@ zuul:
     ms-coosalud-consmed:
       path: /ConsultaMedica/v1/**
       serviceId: MS-COOSALUD-CONSMED
+      stripPrefix: false
     ratelimit:
       enabled: false
       repository: IN_MEMORY
