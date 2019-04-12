@@ -21,6 +21,14 @@ zuul:
       path: /ms-coosalud-bebe/v1/**
       serviceId: MS-COOSALUD-BEBE
       stripPrefix: false
+    ms-coosalud-adolecente:
+      path: /ms-coosalud-adolecente/v1/**
+      serviceId: MS-COOSALUD-ADOLECENTE
+      stripPrefix: false
+    ms-coosalud-adulto:
+      path: /ms-coosalud-adulto/v1/**
+      serviceId: MS-COOSALUD-ADULTO
+      stripPrefix: false
     ms-coosalud-mujer:
       path: /ms-coosalud-mujer/v1/**
       serviceId: MS-COOSALUD-MUJER
