@@ -33,6 +33,10 @@ zuul:
       path: /ms-coosalud-mujer/v1/**
       serviceId: MS-COOSALUD-MUJER
       stripPrefix: false
+    ms-coosalud-catalogo:
+      path: /ms-coosalud-catalogo/v1/**
+      serviceId: MS-COOSALUD-CATALOGO
+      stripPrefix: false
     ms-coosalud-persona:
       path: /ms-coosalud-persona/v1/**
       serviceId: MS-COOSALUD-PERSONA
